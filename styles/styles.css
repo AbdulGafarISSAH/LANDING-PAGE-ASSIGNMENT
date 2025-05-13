@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-image:url(/images/jet.jpg);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.navlinks{
+       display: flex;
+       gap: 50px;
+}
+
+.navlinks li {
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    color:white;
+}
+
+header a:hover{
+ color: orangered;
+}
+
+.header-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    gap: 20px;
+    height: 100%;
+    width: 50%;
+}
+
+.header-text button{
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    border:1px solid white;
+}
+
+.header-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+form{
+    background-color: white;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+}
+
+input,select,button{
+    width: 100%;
+    padding: 5px;
+    margin: 8px 0px;
+}
+
+.input-field{
+      padding: 10px;
+}
+
+.input-field button{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
