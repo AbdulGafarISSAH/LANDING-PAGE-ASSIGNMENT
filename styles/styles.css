@@ -87,7 +87,7 @@ input,select,button{
  .about{
     
     height: 100vh;
-    background-image: url(../images/R.jpg);
+    background-image: url(./images/R.jpg);
     background-position:center;
     background-size: cover;
     background-attachment: scroll;
@@ -95,7 +95,7 @@ input,select,button{
  }
 
  .our-people{
-    background-image: url(../images/ing.jpg);
+    background-image: url(./images/ing.jpg);
     background-position:center;
     background-size: cover;
     background-attachment: scroll;
