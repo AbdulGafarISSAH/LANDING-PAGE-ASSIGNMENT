@@ -84,3 +84,20 @@ input,select,button{
     color: white;
     border: none;
 }
+ .about{
+    
+    height: 100vh;
+    background-image: url(../images/R.jpg);
+    background-position:center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+ }
+
+ .our-people{
+    background-image: url(../images/ing.jpg);
+    background-position:center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+ }
