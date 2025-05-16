@@ -1,138 +1,20 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-nav{
+
+nav {
     background-color: orangered;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 70px;
-    position: fixed; left: 0; right: 0;
-}
-.nav-items{
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-nav a:hover{
- color: black;
-}
-.hero{
-    background-image: url(../images/jet.jpg);
-    height: 100vh;
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    /* background-attachment: fixed; */
-}
-.hero-text h1{
-    font-style: italic;
-    font-size: xx-large;
-    color: orangered;
-}
-.hero-content{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
-.hero-text{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: auto;
-    margin-top: 80px;
-    justify-content: center;
-    align-items: center;
-    text-align:center;
-    gap: 20px;
-    height: 100%;
-    width: 50%;
-}
-
-.hero-text button {
-    background-color: orangered;
-    border-radius: 50px;
-    padding: 10px;
-    border:2px solid white;
-    width: 100px;
-    color: white;
-}
-.our-works{
-    color: white;
-    text-decoration: none;
-}
-form{
-    background-color: white;
-    padding: 2rem 1rem;
-    border-radius: 20px;
-}
-
-input,select,button{
-    width: 100%;
-    padding: 5px;
-    
-}
-
-.input-field{
-      padding: 10px;
-      margin: 0px 0px;
-}
-
-.input-field button{
-    background-color: orangered;
-    color: white;
-    border: none;
-}
- .about{
-    
-    height: 100vh;
-    background-image: url(../images/R.jpg);
-    background-position:center;
-    background-size: cover;
-    background-attachment: scroll;
-    height: 100vh;
- }
-
- .our-people{
-    background-image: url(../images/ing.jpg);
-    background-position:center;
-    background-size: cover;
-    background-attachment: scroll;
-    height: 100vh;
- }
-
- .about-content{
-   font-size: x-large;
-   color: whitesmoke;
-    /* 
-
-   
-   justify-content: center; */
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
-    margin-top: 1%;
-    justify-content: center;
-    align-items: center;
-    text-align:center;
-    gap: 20px;
-    height: 100%;
- }
- .hero-content{
-    width: 80%;
-    margin: auto;
-}
 .text-white {
     color: white;
     text-decoration: none;
@@ -142,3 +24,198 @@ input,select,button{
 .text-bold {
     font-weight: bold;
 }
+
+.nav-items {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.hero {
+    background-image: url(../images/jet.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-style: italic;
+    font-size: xx-large;
+    color: orangered;
+}
+
+.hero-content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.hero-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    height: 100%;
+    width: 50%;
+}
+
+.hero-text button {
+    background-color: orangered;
+    border-radius: 50px;
+    padding: 10px;
+    border: 2px solid white;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+}
+
+.our-works {
+    color: white;
+    text-decoration: none;
+}
+
+.our-works:hover {
+    color: black;
+}
+
+form {
+    background-color: whitesmoke;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 5px;
+
+}
+
+.input-field {
+    padding: 10px;
+    margin: 0px 0px;
+}
+
+.input-field button {
+    background-color: orangered;
+    color: white;
+    border: none;
+
+}
+
+.about {
+
+    height: 100vh;
+    /* background-image: url(../images/R.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+}
+
+.our-people {
+    background-image: url(../images/ing.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100%;
+}
+
+.about-content {
+    font-size: x-large;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 1%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    height: 100%;
+
+}
+
+.bio-heading {
+    color: orangered;
+}
+
+.bio {
+    background-color: transparent;
+}
+
+.bio-button {
+    background-color: white;
+    color: orangered;
+    font-style: italic;
+    border-radius: 50px;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.best {
+    width: 50%;
+    line-height: 30px;
+    padding: 100px 30px;
+    font-size: x-large;
+    color: black;
+    font-style: italic;
+    background-color: white;
+}
+
+/* For small screens */
+@media (max-width: 600px) {
+    .our-people {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* @media (max-width: 600px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+} */
+
+footer {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-button {
+    background-color: orangered;
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+    .footer-button:hover {
+        color: black;
+    }
